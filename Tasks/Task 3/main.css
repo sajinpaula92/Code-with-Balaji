@@ -1,0 +1,19 @@
+body {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+
+
+
