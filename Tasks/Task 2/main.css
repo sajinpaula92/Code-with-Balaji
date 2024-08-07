@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 1500px;
+    height: 1500px;
+    margin: 12rem;
+
+}
+
+.h1 {
+    
+    margin: 40px 200px;
+    
+}
+
+
+.column {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.column .para {
+
+    margin: 0 0.5rem;
+}
+
+.nameandprivacy {
+
+    margin: 12px 10px;
+}
+
+.box {
+
+    
+}
+
+.emailandphone {
+
+    margin: 10px 10px;
+
+}
+
+.textarea {
+
+    margin: 10px 10px;
+}
+
+.button {
+
+    display: block;
+    margin: 0.5rem 16rem;
+    padding: 10px 40px;
+    background-color: #08a1fa;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.addfile {
+
+    display: block;
+    padding: 10px 30px;
+    background-color: #fafdff;
+    border: 1px solid #08a1fa;
+    border-radius: 3px;
+    color: #08a1fa;
+    font-weight: 500;
+
+}
+
+.numbers {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px;
+}
+
+.h2 {
+
+    font-family: 'FugazOne Static', serif;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.num {
+
+    margin: 0px 20px;
+    text-align: center;
+    width: 200px;
+
+}
+
+
+
