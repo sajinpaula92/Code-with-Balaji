@@ -38,7 +38,9 @@ body {
     margin: 12px 10px;
 }
 
-.box {
+.privacy {
+
+    border: 5px solid #008000;
 
     
 }
@@ -60,8 +62,9 @@ body {
     margin: 0.5rem 16rem;
     padding: 10px 40px;
     background-color: #08a1fa;
+    background: linear-gradient(-50deg, #08a1fa, hsla(182, 100%, 50%, 0.97)); 
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #ffffff;
     font-weight: 600;
 }
@@ -69,6 +72,7 @@ body {
 .addfile {
 
     display: block;
+    margin: 2rem 0rem;
     padding: 10px 30px;
     background-color: #fafdff;
     border: 1px solid #08a1fa;
