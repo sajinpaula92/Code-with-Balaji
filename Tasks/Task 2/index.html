@@ -1,93 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 2</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <header></header>
 
     <main>
+      <section>
+        <div class="h1"><h1>Tell Us About Your Project</h1></div>
 
-        <section>
-            <div class="h1"><h1 >Tell Us About Your Project</h1></div>
+        <div class="column">
+          <div>
+            <p class="para">
+              Fill in the form and we shall contact you to discuss next steps.
+            </p>
 
-            <div class="column">
-                <div>
+            <form>
+              <div class="nameandprivacy">
+                <label for="Name" class="box"></label>
+                <input type="text" id="Name" placeholder="Name" />
 
-                    <p class="para">Fill in the form and we shall contact you to discuss next steps.</p>
+                <label for="privacy" class="box privacy"></label>
+                <input
+                  type="text"
+                  id="privacy"
+                  placeholder="Your privacy is protected"
+                />
+              </div>
 
-                    <form>
+              <div class="emailandphone">
+                <label for="email" class="box"></label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Enter business email"
+                />
 
-                        <div class="nameandprivacy">
+                <label for="phone" class="box"></label>
+                <input type="text" id="phone" placeholder="Phone / Skype" />
+              </div>
 
-                        <label for="Name" class="box"></label>
-                        <input type="text" id="Name" placeholder="Name"/>
+              <div class="textarea">
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="4"
+                  cols="48"
+                ></textarea>
+              </div>
 
-                        
-                        <label for="privacy" class="box privacy"></label>
-                        <input type="text" id="privacy" placeholder="Your privacy is protected"/>
+              <button class="addfile">Add File</button>
 
-                        </div>
+              <button class="button">Send</button>
+            </form>
+          </div>
 
-                        <div class="emailandphone">                        
-
-                        <label for="email" class="box"></label>
-                        <input type="text" id="email" placeholder="Enter business email"/>
-
-                        <label for="phone" class="box"></label>
-                        <input type="text" id="phone" placeholder="Phone / Skype"/>
-
-                        </div>
-
-                        <div class="textarea">
-
-                        <textarea name="message" id="message" rows="4" cols="48"></textarea>
-
-                        </div>
-
-                        <button class="addfile">Add File</button>
-
-                        <button class="button">Send</button>
-
-
-                    </form>
-
-                </div>
-
-                <div class="numbers">
-
-            
-                    <div class="num">
-                        <h2 class="h2">90</h2>
-                        <p class="para">PROFESSIONALS IN TEAM</p>
-                    </div>
-
-                    <div class="num">
-                        <h2 class="h2">250+</h2>
-                        <p class="para">PROJECTS ACCOMPLISHED</p>
-                    </div>
-
-                    <div class="num">
-                        <h2 class="h2">550k+</h2>
-                        <p class="para">DEVELOPEMENT HOURS</p>
-                    </div>
-
-                    <div class="num">
-                        <h2 class="h2">773mln</h2>
-                        <p class="para">USERS OF SOLUTIONS WE DEVELOP</p>
-                    </div>
-
-                </div>
-
+          <div class="numbers">
+            <div class="num">
+              <h2 class="h2">90</h2>
+              <p class="para">PROFESSIONALS IN TEAM</p>
             </div>
-        </section>
+
+            <div class="num">
+              <h2 class="h2">250+</h2>
+              <p class="para">PROJECTS ACCOMPLISHED</p>
+            </div>
+
+            <div class="num">
+              <h2 class="h2">550k+</h2>
+              <p class="para">DEVELOPEMENT HOURS</p>
+            </div>
+
+            <div class="num">
+              <h2 class="h2">773mln</h2>
+              <p class="para">USERS OF SOLUTIONS WE DEVELOP</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer></footer>
-    
-</body>
+  </body>
 </html>
