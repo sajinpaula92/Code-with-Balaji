@@ -1,0 +1,79 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+
+    margin: 200px 500px;
+    
+}
+
+.box {
+    
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.ball {    
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;  
+    animation: ballBounce 4s ease infinite alternate;    
+    
+}
+
+@keyframes ballBounce {
+
+    0% {
+
+        transform: translate();
+        background-color: red;  
+                
+
+    }
+
+    25% {
+
+        transform: translate(-160px, -150px); 
+        background-color: blue; 
+              
+
+    }
+
+    50% {
+
+        transform: translate(0px, -318px);
+        background-color: yellow;
+                 
+
+    }
+
+    75% {
+
+        transform: translate(160px, -150px);  
+        background-color: blue; 
+             
+
+    }
+
+    75% {
+
+        transform: translate();
+        background-color: red; 
+                 
+
+    }
+
+   
+
+}
+
