@@ -5,33 +5,38 @@
     box-sizing: border-box;
 }
 
+#mainSection {
+
+    width: 1200px;
+    margin: 50px 150px;
+}
+
 .mainDiv {
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.mainDiv .firstDiv {   
-    margin-top: 40px;
-    margin-left: 70px; 
-    margin-bottom: 40px;   
-    padding: 40px;
+    grid-template-columns: 1fr 1fr;  
     
 }
 
-.firstDiv .img1 {
+.mainDiv .firstDiv {
+    position: relative; 
+}
 
-    position: relative;
+
+.firstDiv .img1 {  
+    
     border-radius: 40px;
     width: 500px;
-    height: 800px;
+    height: 800px;   
+    
 }
+
 
 .firstDiv .img2 {
 
-    position: absolute;
-    top: 550px;
-    left: 525px;
+    position: absolute;        
+    top:500px;
+    left: 425px;
     width: 170px;
     height: 170px;
     border-radius: 20px;
@@ -40,20 +45,19 @@
 .overlayText1 {
 
     position: absolute;
-    top: 550px;
-    left: 525px;
+    top: 520px;
+    left: 475px;
     font-size: 3rem;
     font-weight: bolder;
     color: rgb(229, 125, 88);
-    padding-top: 20px;
-    padding-left: 50px; 
+   
 }
 
 .overlayText2 {
 
     position: absolute;
-    top: 550px;
-    left: 525px;
+    top: 500px;
+    left: 420px;
     width: 10px;
     font-size: 1.5rem;
     font-weight: bolder;
@@ -64,14 +68,15 @@
 
 .mainDiv .secondDiv{
 
-    margin: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
     width: 600px;   
     padding: 40px;
 }
 
 .secondDiv .wordDiv {
 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .wordDiv .para1 {
@@ -135,6 +140,16 @@
     color: rgb(40, 38, 38);
     margin-top: 20px;
     width: 200px;
+}
+
+@media only screen and (max-width :600px) {
+
+    .mainDiv {
+
+        grid-template-columns: 1fr;  
+        
+    }
+    
 }
 
 
