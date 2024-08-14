@@ -1,0 +1,59 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainBox {
+
+    max-width: 1200px;
+    margin: 12px auto;
+    background-color: rgb(123, 111, 111);
+    position: relative;
+    
+    
+}
+
+.logoBox {
+
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;  
+       
+}
+
+.menu {
+
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    font-size: 1.2rem;
+    font-weight: bold; 
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.dropDown {
+
+    position: relative;
+    display: inline-block;
+}
+
+.subMenu {
+
+    position: absolute;
+    display: none;
+    background-color: rgb(114, 109, 109);
+    min-width: 150px;
+    padding: 12px 14px;
+    z-index: 1;
+}
+
+.dropDown:hover .subMenu {
+
+    display: block;
+}
