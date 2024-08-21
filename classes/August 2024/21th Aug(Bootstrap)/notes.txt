@@ -1,0 +1,44 @@
+
+
+container
+row
+col
+
+breakpoints - xl , lg , md , sm , none
+
+
+text-primary
+text-success
+text-secondary
+text-warning
+text-info
+text-dark
+text-light
+
+bg-
+
+margin 
+
+ms - start(left) me - end(right)
+mt - top , mb - bottom .
+mx - horizontal, my - vertical
+
+0 - 5 
+
+m-3
+p-3
+ms-0
+
+
+padding
+
+
+forms
+
+form-control
+
+form-group
+form-select
+form-label
+
+
