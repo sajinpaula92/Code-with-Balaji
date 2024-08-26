@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-transparent navBgImg ">
+            <div class="container px-5 ">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="d-flex justify-content-between">
+
+                <div class="m-auto">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/icons/logo-light.png" alt="">
+                      </a>
+
+                </div>
+               
+
+                  <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+
+                    <ul class="navLinks mb-0">
+                        <li class="nav-item homeMainLink position-relative p-4">
+                            
+                            Home <i class="fa-solid fa-angle-down "></i>
+
+                            <div class="homeAllLinks p-4 rounded-4">
+
+                                <ul class="homeLinks p-0">
+                                    <li class="homeLinkItems p-2">Main <span class="px-3 ms-3 border rounded-pill hotBgColor">Hot</span> </li>
+                                    <li class="homeLinkItems p-2">Agency Style</li>
+                                    <li class="homeLinkItems p-2">Business style</li>
+                                    <li class="homeLinkItems p-2">Business style</li>
+                                    <li class="homeLinkItems p-2">Business style</li>
+                                </ul>
+
+                            </div>
+                        
+                        </li>
+                        <li class="nav-item p-4">About</li>
+                        <li class="nav-item p-4">Pages</li>
+                        <li class="nav-item p-4">Feature</li>
+                        <li class="nav-item p-4">Blog</li>
+                        <li class="nav-item p-4">Contact</li>
+                    </ul>
+                   
+                  </div>
+
+              </div>
+
+              
+            </div>
+          </nav>
+
+        <!-- <section class="sectionHeader">
+            <div class="container-fluid">
+                <div class="row secheadBack">
+                    <div class="col-lg-6  ">
+                        <img src="./assets/icons/logo-light.png" class="m-lg-5 ps-lg-5">
+
+                    </div>
+
+                    <div class="col-lg-6 "> 
+                        <div class="d-flex justify-content-lg-start m-lg-5 ">
+
+                            <li class="nav-item dropdown text-white">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Main</a></li>
+                                  <li><a class="dropdown-item" href="#">Agency Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Business Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Saas Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Technology Style</a></li>
+                                </ul>
+                            </li>
+
+                            <p class="text-white ms-lg-4 mt-lg-4">About Us</p>
+    
+                            <li class="nav-item dropdown text-white ms-lg-4">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Main</a></li>
+                                  <li><a class="dropdown-item" href="#">Agency Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Business Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Saas Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Technology Style</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="nav-item dropdown text-white ms-lg-4">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Features
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Main</a></li>
+                                  <li><a class="dropdown-item" href="#">Agency Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Business Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Saas Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Technology Style</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="nav-item dropdown text-white ms-lg-4">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Main</a></li>
+                                  <li><a class="dropdown-item" href="#">Agency Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Business Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Saas Style</a></li>
+                                  <li><a class="dropdown-item" href="#">Technology Style</a></li>
+                                </ul>
+                            </li>
+
+                            <p class="text-white ms-lg-4 mt-lg-4">Contact</p>
+
+                            <img src="./assets/icons/cart.svg" class="ms-lg-4">
+
+                            <img src="./assets/icons/search.svg" class="ms-lg-4">
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section> -->
+
+
+    </header>
+
+    <main>
+
+        <section class="sectionTop">
+            <div class="container-fluid">
+                <div class="row mb-lg-5 pb-lg-5">
+                    <div class="col-lg-6 secTopImg sec0Container">  
+                        
+
+                            <h2 class="text-white sec0H2 fw-bold">
+                                Accelerate your new Product <span class="sec0H2Span fw-bold ">strategy.</span>
+                            </h2>
+    
+                            <p class="text-white sec0Para">
+                                High-performing software solutions that drive your business forward. Accelerate your software development roadmap through custom engineering solutions.
+                            </p>
+    
+                            <button class="btn btn-primary btn-lg mt-lg-5 py-lg-3 px-lg-5" type="submit">Get Started</button>
+                            <button class="btn btn-light text-primary btn-lg mt-lg-5 ms-lg-2 py-lg-3 px-lg-5" type="submit">How It Works</button>
+
+                                            
+
+                        
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="section0">
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col"></div>
+                    <div class="col-8">
+                        <div class="">
+                            <h1 class="text-center sec0H2 w-100">Build or extend your Business</h1>
+                            <h1 class="text-center sec0H2 w-100">development team</h1>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+
+
+                    <!-- <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-lg-12 text-center">
+
+                                <h2 class=" mb-lg-5 sec0H2  ms-lg-5 ps-lg-5">
+                                    Build or extend your Business development team
+                                </h2>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    
+                        
+                    
+
+
+                    <div class="col-lg-6 mt-lg-5">
+
+                        <img src="./assets/images/Boxes.png" alt="">
+
+                    </div>
+
+                    <div class="col-lg-6 mt-lg-5 pt-lg-5">
+
+                        <h2 class="sec0BottomH2 mt-lg-5">Strategies that get you on the path to success</h2>
+
+                        <p class="sec0BottomText">Scale your software operations through a custom engineering team. Meet the demand of your company’s operations with a high-performing nearshore team skilled in the technologies you need.</p>
+
+                        <p class="fs-5 text-primary">See How it Works <img src="./assets/icons/arrow.png" class="sec0icon "></p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <section class="section1">
+            <div class="container">
+                <div class="row">
+                    <div>
+
+                        <h2 class="sec1H2 ps-lg-2 mt-lg-5 pt-lg-5">
+                            Bespoke software development solutions
+                        </h2>
+
+                        <div class="container">
+
+                            <div class="row">
+
+                                <div class="col-lg-10 mb-lg-5">
+                                    <p class=" text-secondary sec1Text fs-4">
+                                        We support companies that need agile teams of the best engineers. Build or extend your software development team with ease.
+                                    </p>
+
+                                </div>
+                                <div class="col-lg-2 mb-lg-5">
+                                    <button class="btn btn-primary ms-lg-5 py-lg-3 px-lg-4 fw-bold" type="submit">Visit All</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 mb-lg-5 pb-lg-5 pe-lg-5">
+
+                        
+
+                        <div class="border border-secondary border-opacity-75 rounded-5 p-lg-5">
+
+                            <div class="d-flex justify-content-lg-start  ">
+
+                                <div class="border rounded-pill p-lg-4 border-secondary border-opacity-75 ">
+
+                                    <img src="./assets/icons/coffee.svg" class=" sec1Icon ">
+
+                                </div>
+
+                                
+                            </div>
+
+                            <div>
+
+                                
+                                    <h5 class="fs-5 fw-normal mb-lg-3 pb-lg-3">
+                                        Product Design Sprint
+                                    </h5>
+
+                                    <p class="text-secondary fs-6">
+                                        A workshop to answer critical questions, plan the features of your product and reduce the risk.
+
+                                    </p>
+
+                                    <p class="text-secondary fs-6">
+                                        Learn More
+
+                                    </p>
+                                
+                            </div>
+
+
+                        </div>
+                    
+
+                    </div>
+
+                    <div class="col-lg-4 mb-lg-5 pb-lg-5 pe-lg-5">
+
+                        <div class="border border-secondary border-opacity-75 rounded-5 p-lg-5">
+
+                            <div class="d-flex justify-content-lg-start  ">
+
+                                <div class="border rounded-pill p-lg-4 border-secondary border-opacity-75 ">
+
+                                    <img src="./assets/icons/pen.svg" class=" sec1Icon ">
+
+                                </div>
+
+                                
+                            </div>
+
+                            <div>
+
+                                
+                                    <h5 class="fs-5 fw-normal mb-lg-3 pb-lg-3">
+                                        Product Design Sprint
+                                    </h5>
+
+                                    <p class="text-secondary fs-6">
+                                        A workshop to answer critical questions, plan the features of your product and reduce the risk.
+
+                                    </p>
+
+                                    <p class="text-secondary fs-6">
+                                        Learn More
+
+                                    </p>
+                                
+                            </div>
+
+
+                        </div>
+                    
+
+                    </div>
+
+                    <div class="col-lg-4 mb-lg-5 pb-lg-5 pe-lg-5">
+
+                        <div class="border border-secondary border-opacity-75 rounded-5 p-lg-5">
+
+                            <div class="d-flex justify-content-lg-start  ">
+
+                                <div class="border rounded-pill p-lg-4 border-secondary border-opacity-75 ">
+
+                                    <img src="./assets/icons/scope.svg" class=" sec1Icon ">
+
+                                </div>
+
+                                
+                            </div>
+
+                            <div>
+
+                                
+                                    <h5 class="fs-5 fw-normal mb-lg-3 pb-lg-3">
+                                        Product Design Sprint
+                                    </h5>
+
+                                    <p class="text-secondary fs-6">
+                                        A workshop to answer critical questions, plan the features of your product and reduce the risk.
+
+                                    </p>
+
+                                    <p class="text-secondary fs-6">
+                                        Learn More
+
+                                    </p>
+                                
+                            </div>
+
+
+                        </div>
+                    
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        
+
+        <section class="section2">            
+
+            <div class="container">             
+                <div class="row">
+
+                    <div>
+
+                        <h2 class="text-lg-start m-lg-5 pt-lg-5 sec2H2 fw-bold">
+                            Your company needs great software solutions. Let’s build high-performing products
+                        </h2>
+                    
+                    </div>
+
+                    <div class="text-center d-flex justify-content-center mb-lg-5 pb-lg-5">
+
+                        <div class="col-lg-4 d-flex">
+
+                            <div class=" d-flex justify-content-end flex-column">
+
+                                <img src="./assets/images/portfolio-1-min.jpeg"  class="sec2Img rounded-4">
+
+                                <p class="text-lg-start ms-lg-4 mt-lg-4 ps-lg-2 sec2Text fw-bold">Technology Consulting</p>
+        
+
+                            </div>
+
+                          
+                        </div>
+    
+                        <div class="col-lg-4 ">
+    
+                            <img src="./assets/images/portfolio-2-min.jpeg" class="sec2Img rounded-4">
+
+                            <p class="text-lg-start ms-lg-4 mt-lg-4 ps-lg-2 sec2Text fw-bold">App Development</p>
+    
+                        </div>
+    
+                        <div class="col-lg-4">
+    
+                            <img src="./assets/images/portfolio3-3.jpeg" class="sec2Img rounded-4">
+
+                            <p class="text-lg-start ms-lg-4 mt-lg-4 ps-lg-2 sec2Text fw-bold">Financial Services</p>
+    
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+        <section class="section3">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-lg-5 pt-lg-5 mb-lg-3">
+                        <div>
+                            <h2 class="text-center sec3H2">
+                                Choose the right plan for you
+                            </h2>
+
+                            <p class="text-center paraText text-secondary mt-lg-4">
+                                Scale your software operations through a custom engineering team. Meet the demand of your company’s
+                            </p>
+                        </div>
+
+                        <div class="d-flex justify-content-center align-items-center gap-5">
+
+                            <span>Monthly</span>
+
+                            <div class="toggleBox p-1 rounded-pill border border-dark ">
+                                <div class="toggleRound border border-dark rounded-circle"></div>
+                            </div>
+
+
+                            <span>Yearly</span>
+                            <span class="px-3 py-1 sec3Button rounded-2">Save 25%</span>
+
+                            <!-- <p class="me-lg-5 pt-lg-3">Monthly &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yearly</p>
+
+                            <span class="sec3Button">
+                               
+                            </span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <section class="section4">
+            <div class="container">
+                <div class="row text-center ms-lg-5 ps-lg-5 mb-lg-5" >
+                    <div class="col-lg-4 containerBox border rounded-4 mt-lg-5 me-lg-3 p-lg-5 mb-lg-5">
+
+                        <div class="top text-lg-start ">
+                            <p class="containerTextFirst">
+                                Personal
+                            </p>
+
+                            <h2 class="border-bottom border-secondary border-opacity-25 pb-lg-3 containerTextH2" >
+                                $19.00 <span class="containerText">/month</span> 
+                            </h2>
+
+                        </div>
+
+                        <div class="bottom text-secondary text-lg-start containerText">
+
+                            <p class="">
+                                Our plans come with a 100% free 14 day trial. No credit card needed.
+                            </p>
+
+                            <p>Unlimited guest reviewers</p>
+                            <p>Lifetime updates</p>
+                            <p>No setup fees</p>
+                            <p>Unlimited projects</p>
+
+                        </div>
+
+                        <div>
+
+                            <div class="text-lg-start mt-lg-5 mb-lg-4">
+                                <button class="btn btn-primary btn-lg containerButton" type="submit" class="">Subscribe Now</button>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="col-lg-4 containerBox containerBox2 border rounded-4 mt-lg-5 me-lg-3 p-lg-5 mb-lg-5">
+
+                        <div class="top text-lg-start ">
+                            <p class="containerTextFirst text-light text-opacity-75">
+                                Startup
+                            </p>
+
+                            <h2 class=" pb-lg-3 containerTextH2 containerBox2" >
+                                $20.00 <span class="containerText">/month</span> 
+                            </h2>
+
+                        </div>
+
+                        <div class="bottom containerBox2 text-lg-start containerText">
+
+                            <p >
+                                Our plans come with a 100% free 14 day trial. No credit card needed.
+                            </p>
+
+                            <p>Unlimited guest reviewers</p>
+                            <p>Lifetime updates</p>
+                            <p>No setup fees</p>
+                            <p>Unlimited projects</p>
+
+                        </div>
+
+                        <div>
+
+                            <div class="text-lg-start mt-lg-5 mb-lg-4  ">
+                                <button class="btn btn-primary btn-lg containerButton" type="submit" class="">Subscribe Now</button>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="col-lg-4 containerBox border rounded-4 mt-lg-5 p-lg-5 mb-lg-5">
+
+                        <div class="top text-lg-start ">
+                            <p class="containerTextFirst">
+                                Business
+                            </p>
+
+                            <h2 class="border-bottom border-secondary border-opacity-25 pb-lg-3 containerTextH2" >
+                                $59.00 <span class="containerText">/month</span> 
+                            </h2>
+
+                        </div>
+
+                        <div class="bottom text-secondary text-lg-start containerText">
+
+                            <p class="">
+                                Our plans come with a 100% free 14 day trial. No credit card needed.
+                            </p>
+
+                            <p>Unlimited guest reviewers</p>
+                            <p>Lifetime updates</p>
+                            <p>No setup fees</p>
+                            <p>Unlimited projects</p>
+
+                        </div>
+
+                        <div>
+
+                            <div class="text-lg-start mt-lg-5 mb-lg-4 ">
+                                <button class="btn btn-primary btn-lg containerButton" type="submit" class="">Subscribe Now</button>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12  ">
+                        
+                        <h2 class="divH2 fw-bold text-lg-center mt-lg-5 mb-lg-5 ">
+                            10+ years in the game and we're just getting Started
+                        </h2>                      
+                        
+
+                        <p class="text-center divP text-secondary">
+                            Before we start, we would like to better understand your needs. We’ll review your application and schedule a free estimation call.
+                        </p>
+
+                        <div class="text-center ms-lg-5 mt-lg-2 p-lg-3 mb-lg-5">
+                            <button class="btn btn-primary btn-lg" type="submit" class="">Get Started</button>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 footerLeft text-white">
+                    <div class="p-4 mt-lg-5 pt-lg-5">
+                        <img src="./assets/icons/logo-light.png" class="mb-lg-3" alt="">
+                        <p class="text-white">
+                            Creative-powered to fuel your growth goals. We build world-class digital products, software and branding.
+                        </p>
+    
+                    </div>
+    
+                </div>
+                <div class="col-lg-6 footerRight text-white">
+                    <div class="row p-4 ms-5 mt-lg-5 pt-lg-5">
+                        <div class="col-lg-4">
+                            <h6 class="fw-bold">
+                                Products
+                            </h6>
+
+                            <p>Unify App</p>
+                            <p>Page Builder</p>
+                            <p>Templates</p>
+                            <p>Pricing</p>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <h6 class="fw-bold">
+                                Resources
+                            </h6>
+
+                            <p>Design</p>
+                            <p>Inspirationr</p>
+                            <p>Blog</p>
+                            <p>Jobs</p>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <h6 class="fw-bold">
+                                Support
+                            </h6>
+
+                            <p>Documentation</p>
+                            <p>Help Desk</p>
+                            <p>Video Guides</p>
+                            <p>Security</p>
+
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+            <div class="row border-top border-light border-opacity-25">
+                <div class="col-lg-9 text-white">
+                    <p class="mt-lg-2 ms-lg-4 pt-lg-2 mb-lg-5 pb-lg-5">
+                        © 2024 Converta Theme. Codeless, LLC. San Francisco, California. USA.
+                    </p>
+                </div>
+                <div class="col-lg-3 text-white">
+
+                    <div class="mt-lg-1 pt-lg-2 mb-lg-5 pb-lg-5">
+
+                        <img src="./assets/icons/facebook.png"  class="socialLogo ms-lg-4 ps-lg-5">
+                        <img src="./assets/icons/twitter.png" class="socialLogo ms-lg-4">
+                        <img src="./assets/icons/youtube.png" class="socialLogo ms-lg-4">
+
+                    </div>  
+
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

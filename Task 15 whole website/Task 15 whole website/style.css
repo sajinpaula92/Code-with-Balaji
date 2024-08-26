@@ -1,0 +1,329 @@
+*{
+
+    font-family: DM Sans;
+    
+  /*  border: 1px solid black;*/
+}
+
+
+.navBgImg{
+    background: url(./assets/images/nav_main.png);
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 90px;
+}
+
+.navLinks{
+    display: flex;
+}
+.navLinks .nav-item{
+    list-style: none;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.homeMainLink:hover .homeAllLinks{
+    display: block;
+}
+
+.homeLinks .homeLinkItems{
+    list-style-type: none;
+}
+
+.homeAllLinks{
+
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    display: none;
+
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: -109px;
+}
+
+.hotBgColor{
+    font-weight: 600;
+    color: red;
+    background-color: rgb(255, 186, 186);
+}
+
+.fa-angle-down{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.sectionHeader .secheadBack {  
+    
+    background: url(./assets/images/main-home-hero-min.png);
+
+    width:2000px;
+    height: 100px; 
+    
+}
+
+
+
+.sectionTop .secTopImg {  
+    
+    background: url(./assets/images/main-home-hero-min.png);
+
+    width:2000px;
+    height: 700px; 
+    
+}
+
+.sectionTop .sec0Container{  
+   
+    padding-top: 70px;
+    padding-left: 120px;
+    
+}
+
+.sectionTop .sec0H2{  
+   
+    font-size: 6rem;
+    width: 900px;
+    
+}
+
+.sectionTop .sec0H2Span{  
+   
+    font-size: 6rem;
+    width: 900px;
+    color: rgb(77, 103, 250);
+    
+}
+
+.sectionTop .sec0Para{  
+   
+    font-size: 1.3rem;
+    width: 900px;
+    
+}
+
+
+
+
+
+
+
+
+
+.section0 .sec0H2 {
+
+    width: 800px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(61, 61, 116);    
+    
+}
+
+.section0 .sec0BottomH2 {
+
+    width: 500px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(61, 61, 116);    
+    
+}
+
+.section0 .sec0BottomText {
+
+    width: 500px;
+    font-size: 1.2rem;
+    opacity: 75%;
+    color: rgb(61, 61, 116);    
+    
+}
+
+
+.section0 .sec0icon {
+
+    height: 15px;
+    width: 20px;   
+    
+}
+
+
+.section1 .sec1Icon {
+
+    height: 40px;
+    width: 30px;
+    opacity: 90%;
+    
+}
+
+.section1 .sec1H2 {
+
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(61, 61, 116);    
+    
+}
+
+.section1 .sec1Text {
+
+    width: 650px;        
+    
+}
+
+
+
+.section2 .sec2Img {
+
+    /* height: 450px; */
+    width: 375px;
+}
+
+.section2 .sec2H2 {
+
+    font-size: 3.5rem;
+    color: rgb(61, 61, 116);    
+}
+
+
+
+
+
+.section2 .sec2Text {
+
+    font-size: 1.7rem;
+    color: rgb(61, 61, 116);    
+}
+
+
+
+
+.section3 .sec3H2 {
+
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(61, 61, 116);
+
+
+}
+
+
+
+.section3 .paraText {
+
+    font-size: 1.2rem;
+}
+
+.section3 .sec3Button {
+
+    background-color: rgb(78, 202, 78);
+   
+    color: rgb(247, 246, 246);
+}
+
+
+.section4 .top {
+
+    color: rgb(61, 61, 116);
+}
+
+.section4 .bottom {
+
+    font-size: 1rem;
+}
+
+.section4 .containerBox {
+
+    height: 600px;
+    width: 350px;
+}
+
+.section4 .containerBox2 {
+
+    background-color: rgb(18, 18, 75);
+    color: white;
+    
+}
+
+.section4 .containerButton {
+
+    padding: 15px 50px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.section4 .containerTextFirst {
+    font-size: 1.7rem;
+    
+}
+
+.section4 .containerTextH2 {
+    font-size: 4rem;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    
+}
+
+.section4 .containerText {
+    font-size: 1.2rem;
+    
+}
+
+
+
+
+.section5 .divH2 {
+
+    font-size: 4rem;
+    color: rgb(61, 61, 116);
+    width: 900px;
+    margin-left: 200px;
+    
+}
+
+.section5 .divP {
+
+    font-size: 1.2rem;
+    
+    width: 975px;
+    margin-left: 200px;
+}
+
+
+footer {
+
+    background: url(./assets/images/footer-bg.png);
+}
+
+.footerLeft {
+
+    width: 600px;
+}
+
+.socialLogo {
+
+    height: 30px;
+}
+
+
+
+
+.toggleBox{
+    width: 58px;
+    background-color: #e9e9e9;
+
+    position: relative;
+    height: 30px;
+}
+
+.toggleRound{
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+
+    position: absolute;
+}
+
+
+.toggleBox:hover .toggleRound{
+    right: 5px;
+}
