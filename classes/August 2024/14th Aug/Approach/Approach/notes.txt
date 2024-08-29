@@ -1,0 +1,18 @@
+1. if there is space in left and right .
+    - #About{
+        width : 1140px;
+        margin: 0 auto;
+    }
+
+    *{
+        border: 1px solid #000
+    }
+
+2. check for columns
+    - 
+    .mainBox{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        

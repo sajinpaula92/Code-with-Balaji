@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owl/css/owl.theme.default.min.css">
+
+    <style>
+        .innerDiv{
+            border: 1px solid #000;
+            background-color: red;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .buttons{
+            margin: 10px auto;
+            text-align: center;
+        }
+        .buttons button{
+            margin: 0 5px;
+            padding: 5px 10px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+
+    <div class="owl-carousel firstOuterDiv">
+
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab odio natus ut amet deserunt reiciendis tenetur, cumque repudiandae necessitatibus, laudantium eius quo dolorem ipsam labore, ullam itaque perferendis magni iste.</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, incidunt?</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In tempora beatae fugiat veniam, voluptas expedita!</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab odio natus ut amet deserunt reiciendis tenetur, cumque repudiandae necessitatibus, laudantium eius quo dolorem ipsam labore, ullam itaque perferendis magni iste.</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, incidunt?</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In tempora beatae fugiat veniam, voluptas expedita!</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <button class="prevBtn firstOwl" >Prev</button>
+        <button class="nextBtn firstOwl" >Next</button>
+    </div>
+
+
+
+    <div class="owl-carousel secondOuterDiv">
+
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab odio natus ut amet deserunt reiciendis tenetur, cumque repudiandae necessitatibus, laudantium eius quo dolorem ipsam labore, ullam itaque perferendis magni iste.</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, incidunt?</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In tempora beatae fugiat veniam, voluptas expedita!</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab odio natus ut amet deserunt reiciendis tenetur, cumque repudiandae necessitatibus, laudantium eius quo dolorem ipsam labore, ullam itaque perferendis magni iste.</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, incidunt?</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In tempora beatae fugiat veniam, voluptas expedita!</p>
+        </div>
+        <div class="item innerDiv">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <button class="prevBtn secondOwl" >Prev</button>
+        <button class="nextBtn secondOwl" >Next</button>
+    </div>
+
+
+
+
+
+    <script src="./assets/owl/js/jquery.min.js" ></script>
+    <script src="./assets/owl/js/owl.carousel.js" ></script>
+    <script src="./assets/owl/js/owl.carousel.min.js" ></script>
+    
+</body>
+</html>
+
+<script>
+
+    var firstOwl = $('.owl-carousel.firstOuterDiv');
+
+    firstOwl.owlCarousel({
+
+        items : 4,
+            margin : 20,
+            loop : true,
+
+            // autoplay:true,
+            // autoplayTimeout:1500,
+            // autoplaySpeed: 1000,
+
+            responsive :{
+                300:{
+                    items : 1,
+                },
+                768:{
+                    items : 3,
+                },
+                992:{
+                    items : 4,
+                },
+            }
+
+    })
+
+    $('.prevBtn.firstOwl').click(function(){
+        firstOwl.trigger('prev.owl.carousel');
+    })
+    $('.nextBtn.firstOwl').click(function(){
+        firstOwl.trigger('next.owl.carousel');
+    })
+
+
+    var secondOwl = $('.owl-carousel.secondOuterDiv');
+
+    secondOwl.owlCarousel({
+
+            items : 3,
+            margin : 10,
+            loop : false,
+
+
+
+            responsive :{
+                300:{
+                    items : 1,
+                },
+                768:{
+                    items : 2,
+                },
+                992:{
+                    items : 3,
+                },
+            }
+            })
+
+    $('.prevBtn.secondOwl').click(function(){
+        secondOwl.trigger('prev.owl.carousel');
+    })
+    $('.nextBtn.secondOwl').click(function(){
+        secondOwl.trigger('next.owl.carousel');
+    })
+
+
+
+
+
+
+</script>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../../29th Aug(Owl carousel)/assets/owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../29th Aug(Owl carousel)/assets/owl/css/owl.theme.default.min.css">
+    <style>
+
+        *{
+            /* border: 1px solid #000; */
+        }
+        #feedback{
+            width: 1140px;
+            margin: 0 auto;
+        }
+        .mainBox{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .firstCol , .secondCol , .thirdCol{
+            margin: 7px;
+            padding: 35px;
+            border-radius: 25px;
+            border: 1px solid #000;
+        }
+        .mainUserContent{
+            display: flex;
+            gap: 10px;
+        }
+
+        .imageResize{
+            height: 80px;
+            width: 80px !important;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .userName{
+            /* margin-top: 10px; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .userName p{
+            margin: 2px 0;
+
+        }
+
+        .goldStar{
+            width: 20px !important;
+        }
+        .imgContainer{
+            display: flex;
+            /* margin-top: 5px; */
+        }
+
+        @media screen and (max-width: 1160px) and (min-width: 900px) {
+            #feedback{
+                width: 800px;
+            }
+            .mainBox{
+                grid-template-columns: 1fr 1fr;
+            }
+            
+        }
+
+        @media screen and (max-width: 899px) and (min-width: 500px) {
+            #feedback{
+                width: 450px;
+            }
+            .mainBox{
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media screen and (max-device-width: 501px){
+            #feedback{
+                width: 80%;
+            }
+            .mainBox{
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+
+    
+</head>
+<body>
+
+    <main>
+
+        <section id="feedback">
+
+            <div class="mainBox owl-carousel ">
+                <div class="firstCol item">
+
+                    <div class="mainUserContent">
+                        <div class="">
+                            <img src="./assets/images/pexels-andrewpersonaltraining-697509.jpg" class="imageResize" alt="">
+                        </div>
+
+                        <div class="userName">
+                            <p>Sajin</p>
+                            <p>Lives in germany</p>
+                            <div class="imgContainer">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente, ipsa placeat a repellat quo dolore dolorum, tenetur similique.</p>
+                    </div>
+                </div>
+                <div class="secondCol item">
+
+                    <div class="mainUserContent">
+                        <div class="">
+                            <img src="./assets/images/pexels-andrewpersonaltraining-697509.jpg" class="imageResize" alt="">
+                        </div>
+
+                        <div class="userName">
+                            <p>Sajin</p>
+                            <p>Lives in germany</p>
+                            <div class="imgContainer">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente, ipsa placeat a repellat quo dolore dolorum, tenetur similique.</p>
+                    </div>
+
+                </div>
+                <div class="thirdCol item">
+
+                    <div class="mainUserContent">
+                        <div class="">
+                            <img src="./assets/images/pexels-andrewpersonaltraining-697509.jpg" class="imageResize" alt="">
+                        </div>
+
+                        <div class="userName">
+                            <p>Sajin</p>
+                            <p>Lives in germany</p>
+                            <div class="imgContainer">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente, ipsa placeat a repellat quo dolore dolorum, tenetur similique.</p>
+                    </div>
+
+                </div>
+                <div class="firstCol item">
+
+                    <div class="mainUserContent">
+                        <div class="">
+                            <img src="./assets/images/pexels-andrewpersonaltraining-697509.jpg" class="imageResize" alt="">
+                        </div>
+
+                        <div class="userName">
+                            <p>Sajin</p>
+                            <p>Lives in germany</p>
+                            <div class="imgContainer">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente, ipsa placeat a repellat quo dolore dolorum, tenetur similique.</p>
+                    </div>
+                </div>
+                <div class="secondCol item">
+
+                    <div class="mainUserContent">
+                        <div class="">
+                            <img src="./assets/images/pexels-andrewpersonaltraining-697509.jpg" class="imageResize" alt="">
+                        </div>
+
+                        <div class="userName">
+                            <p>Sajin</p>
+                            <p>Lives in germany</p>
+                            <div class="imgContainer">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente, ipsa placeat a repellat quo dolore dolorum, tenetur similique.</p>
+                    </div>
+
+                </div>
+                <div class="thirdCol item">
+
+                    <div class="mainUserContent">
+                        <div class="">
+                            <img src="./assets/images/pexels-andrewpersonaltraining-697509.jpg" class="imageResize" alt="">
+                        </div>
+
+                        <div class="userName">
+                            <p>Sajin</p>
+                            <p>Lives in germany</p>
+                            <div class="imgContainer">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                                <img src="./assets/images/gold_start.png" class="goldStar" alt="">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    <div class="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente, ipsa placeat a repellat quo dolore dolorum, tenetur similique.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <script src="../../../29th Aug(Owl carousel)/assets/owl/js/jquery.min.js" ></script>
+    <script src="../../../29th Aug(Owl carousel)/assets/owl/js/owl.carousel.js" ></script>
+    <script src="../../../29th Aug(Owl carousel)/assets/owl/js/owl.carousel.min.js" ></script>
+    
+</body>
+</html>
+
+<script>
+
+    var owl1 = $('.owl-carousel.mainBox');
+    owl1.owlCarousel({
+
+        responsive:{
+
+            300:{
+                items:1
+            },
+
+            992:{
+                items : 3
+            }
+
+        }
+
+    })
+</script>

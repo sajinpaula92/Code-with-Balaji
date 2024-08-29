@@ -5,6 +5,20 @@
   /*  border: 1px solid black;*/
 }
 
+:root{
+
+    --primary-color: rgb(61, 61, 116); 
+    --secondary-color: rgb(77, 103, 250);
+    --third-color: rgb(18, 18, 75);
+
+    --font-family-1 : DM Sans;
+    --font-family-2 : Poppins;
+
+    --line-height: 15px;
+
+
+}
+
 
 .navBgImg{
     background: url(./assets/images/nav_main.png);
@@ -12,6 +26,8 @@
     left: 0;
     right: 0;
     height: 90px;
+
+    z-index: 99;
 }
 
 .navLinks{
@@ -117,7 +133,7 @@
     width: 800px;
     font-size: 3.5rem;
     font-weight: bold;
-    color: rgb(61, 61, 116);    
+    color: var(--primary-color);
     
 }
 
@@ -126,7 +142,7 @@
     width: 500px;
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(61, 61, 116);    
+    color: var(--primary-color);
     
 }
 
@@ -135,7 +151,7 @@
     width: 500px;
     font-size: 1.2rem;
     opacity: 75%;
-    color: rgb(61, 61, 116);    
+    color: var(--primary-color);
     
 }
 
@@ -160,7 +176,7 @@
 
     font-size: 3.5rem;
     font-weight: bold;
-    color: rgb(61, 61, 116);    
+    color: var(--primary-color);
     
 }
 
@@ -181,7 +197,7 @@
 .section2 .sec2H2 {
 
     font-size: 3.5rem;
-    color: rgb(61, 61, 116);    
+    color: var(--primary-color); 
 }
 
 
@@ -191,7 +207,7 @@
 .section2 .sec2Text {
 
     font-size: 1.7rem;
-    color: rgb(61, 61, 116);    
+    color: var(--primary-color);   
 }
 
 
@@ -201,7 +217,7 @@
 
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(61, 61, 116);
+    color: var(--primary-color);
 
 
 }
@@ -223,7 +239,7 @@
 
 .section4 .top {
 
-    color: rgb(61, 61, 116);
+    color: var(--primary-color);
 }
 
 .section4 .bottom {
@@ -274,7 +290,7 @@
 .section5 .divH2 {
 
     font-size: 4rem;
-    color: rgb(61, 61, 116);
+    color: var(--primary-color);
     width: 900px;
     margin-left: 200px;
     
