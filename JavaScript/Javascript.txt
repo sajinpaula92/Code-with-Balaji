@@ -1,0 +1,21 @@
+1. Intractive
+2. Client side programming (validation)
+3. Dom manipulation
+
+Programming Side (Before and After ES6 - ECMA SCRIPT 6 - Standard version)
+Scripting Side
+
+
+DATA & Types- Number and characters
+
+1. Number (0 - 9 , 5.34534 , 6.546576776545345 , 3.144655465)
+2. String ( single or multiple characters)
+3. Boolean (true or false)
+4. BigInt (645654657657687796754654435345675754453453453)
+5. Null.
+6. Undefined.
+
+
+
+String concatination (addition)
+
